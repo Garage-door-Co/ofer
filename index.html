@@ -28,12 +28,25 @@
 		ul {
 			margin-top: 0;
 		}
+		#pics {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			-ms-align-items: center;
+			align-items: center;
+		}
+		img {
+			width: 250px;
+		}
+		#call {
+			font-size: 150%;
+		}
 	</style>
 </head>
 <body>
 <header>
 	<h1>Garage door Co.</h1>
-	<div>
+	<div id="call">
 		<span>Call 720-376-4026</span><br>
 		<span>Ofer Modi</span> 
 	</div>
@@ -47,8 +60,12 @@
 	<li>parts replacement : rollers, all types of hinges available, springs adjustment and tune ups. All remotes and keypads for all brands, tracks all mounts and bearing</li>
 	<li>Get your quote.</li>
 </ul>
-
 </main>
+<div id="pics">
+	<img src="roller.jpg" alt="roller">
+	<img src="lift.jpg" alt="lift master">
+	<img src="spring.jpg" alt="springs">
+</div>
 
 </body>
 </html>
