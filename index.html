@@ -7,6 +7,7 @@
 	<title>Garage door Co</title>
 	<style>
 		body {
+			background-image: url('b-header.jpg');
 			margin: 0;
 			font-size: 120%;
 			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -29,11 +30,16 @@
 			margin-top: 0;
 		}
 		#pics {
+			margin-top: .5rem;
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-around;
-			-ms-align-items: center;
 			align-items: center;
+		}
+		.img-container {
+			background: white;
+			height: 200px;
+			border: 1px solid #333;
 		}
 		img {
 			width: 250px;
@@ -62,9 +68,9 @@
 </ul>
 </main>
 <div id="pics">
-	<img src="roller.jpg" alt="roller">
-	<img src="lift.jpg" alt="lift master">
-	<img src="spring.jpg" alt="springs">
+	<div class="img-container"><img src="roller.jpg" alt="roller"></div>
+	<div class="img-container"><img src="lift.jpg" alt="lift master"></div>
+	<div class="img-container"><img src="spring.jpg" alt="springs"></div>
 </div>
 
 </body>
